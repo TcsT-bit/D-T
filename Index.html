@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D&T Logistics - When You Need It, You Call Us</title>
+<meta name="description" content="D&T Logistics: B2B supply + transport for Food, Farming, Mining, Industrial. 1 call/WhatsApp 069 894 9596 → quote in 15min → dispatch in 60min. 24/7.">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', Roboto, Arial, sans-serif; }
+body { background:#0a0a0a; color:#fff; line-height:1.6; }
+.container { max-width:1100px; margin:0 auto; padding:0 20px; }
+
+/* Header */
+header {
+  background:linear-gradient(180deg, #0a0a0a 0%, transparent 100%);
+  position:sticky; top:0; z-index:50; backdrop-filter:blur(10px);
+  border-bottom:1px solid #1a1a1a;
+}
+.nav { display:flex; justify-content:space-between; align-items:center; padding:15px 0; }
+.logo { font-size:1.5rem; font-weight:800; color:#b8ff00; }
+.logo span { color:#fff; font-weight:600; font-size:0.9rem; margin-left:5px; }
+.nav-cta { background:#b8ff00; color:#000; padding:10px 20px; border-radius:25px; font-weight:700; text-decoration:none; font-size:0.9rem; }
+
+/* Hero */
+.hero {
+  padding:80px 0 60px;
+  background:radial-gradient(circle at 20% 50%, rgba(184,255,0,0.1) 0%, transparent 50%);
+}
+.hero h1 { font-size:2.8rem; line-height:1.2; margin-bottom:20px; }
+.hero h1 span { color:#b8ff00; }
+.hero p { color:#aaa; font-size:1.1rem; margin-bottom:30px; max-width:600px; }
+.btn-primary {
+  background:#b8ff00; color:#000; padding:14px 30px; border-radius:8px;
+  font-weight:800; text-decoration:none; display:inline-block; border:none; cursor:pointer;
+  transition:0.2s;
+}
+.btn-primary:hover { transform:scale(1.05); background:#d4ff4d; }
+.hero-stats { display:flex; gap:30px; margin-top:40px; flex-wrap:wrap; }
+.stat { text-align:left; }
+.stat h3 { font-size:1.8rem; color:#b8ff00; }
+.stat p { color:#888; font-size:0.9rem; }
+
+/* Sections */
+.section { padding:60px 0; }
+.section h2 { font-size:2rem; margin-bottom:15px; text-align:center; }
+.section p.sub { color:#aaa; text-align:center; margin-bottom:40px; }
+
+/* Services Grid */
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px; }
+.card {
+  background:#1a1a1a; padding:25px; border-radius:12px; border-left:4px solid #b8ff00;
+  transition:0.3s;
+}
+.card:hover { transform:translateY(-5px); background:#222; }
+.card h3 { color:#b8ff00; margin-bottom:10px; font-size:1.2rem; }
+.card p { color:#ccc; font-size:0.95rem; }
+
+/* Quote Form */
+.quote-box {
+  background:#1a1a1a; padding:30px; border-radius:16px; max-width:600px; margin:0 auto;
+  border:1px solid #2a2a2a;
+}
+.quote-box input, .quote-box select, .quote-box textarea {
+  width:100%; padding:12px; margin-bottom:15px; border-radius:8px;
+  border:none; background:#0a0a0a; color:#fff; font-size:1rem;
+}
+.quote-box label { font-size:0.9rem; color:#aaa; margin-bottom:5px; display:block; }
+
+/* Contact */
+.contact-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:30px; margin-top:40px; }
+.contact-item { background:#1a1a1a; padding:20px; border-radius:12px; text-align:center; }
+.contact-item h4 { color:#b8ff00; margin-bottom:8px; }
+
+/* Footer */
+footer { background:#000; padding:30px 0; text-align:center; border-top:1px solid #1a1a1a; color:#666; font-size:0.9rem; }
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position:fixed; bottom:20px; right:20px; background:#25D366; color:#fff;
+  width:60px; height:60px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+  font-size:1.8rem; text-decoration:none; box-shadow:0 4px 20px rgba(37,211,102,0.4); z-index:100;
+  transition:0.2s;
+}
+.whatsapp-float:hover { transform:scale(1.1); }
+
+@media(max-width:768px){
+  .hero h1 { font-size:2rem; }
+  .hero-stats { justify-content:center; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav class="nav">
+      <div class="logo">D&T <span>Logistics</span></div>
+      <a href="#quote" class="nav-cta">Request Quote</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>When You Need It,<br><span>You Call Us</span></h1>
+    <p>D&T Logistics is your 1-call supply chain for Food, Farming, Mining & Industrial. Quote in 15min. Dispatch in 60min. 24/7 across Gauteng, Mpumalanga & Limpopo.</p>
+    <a href="https://wa.me/27698949596?text=Hi%20D%26T%20Logistics%2C%20I%20need%20a%20quote" class="btn-primary" target="_blank">WhatsApp 069 894 9596</a>
+    
+    <div class="hero-stats">
+      <div class="stat"><h3>15min</h3><p>Quote Response</p></div>
+      <div class="stat"><h3>60min</h3><p>Dispatch Time</p></div>
+      <div class="stat"><h3>24/7</h3><p>Emergency Support</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <p class="sub">4 verticals. 1 trusted partner. Any load, any time.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>🥶 Food & Cold Chain</h3>
+        <p>Perishables, frozen goods, dry foods, packaging. Last-mile to spaza & retail. Cold chain compliant.</p>
+      </div>
+      <div class="card">
+        <h3>🌾 Farming & Agri</h3>
+        <p>Fertilizer, feed, seeds, harvested crops, livestock transport, irrigation parts. Seasonal spike support.</p>
+      </div>
+      <div class="card">
+        <h3>⛏️ Mining</h3>
+        <p>PPE, spares, explosives logistics, ore samples, bulk water, camp supplies. 24/7 emergency deliveries.</p>
+      </div>
+      <div class="card">
+        <h3>🏭 Industrial/General</h3>
+        <p>Raw materials, machinery parts, pallets, steel, chemicals, breakdown deliveries. JIT support.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="quote" style="background:#0f0f0f;">
+  <div class="container">
+    <h2>Request a Quote</h2>
+    <p class="sub">Fill this form and we’ll WhatsApp you in 15 minutes</p>
+    <div class="quote-box">
+      <form id="quoteForm">
+        <label>Company Name *</label>
+        <input type="text" id="company" required>
+        
+        <label>What do you need? *</label>
+        <select id="vertical" required>
+          <option value="">Select Service</option>
+          <option value="FOOD">Food & Cold Chain</option>
+          <option value="FARM">Farming & Agri</option>
+          <option value="MINE">Mining</option>
+          <option value="INDUSTRIAL">Industrial/General</option>
+        </select>
+        
+        <label>Pickup Location *</label>
+        <input type="text" id="pickup" placeholder="e.g. Pretoria West" required>
+        
+        <label>Delivery Location *</label>
+        <input type="text" id="delivery" placeholder="e.g. Polokwane Mine" required>
+        
+        <label>Urgency</label>
+        <select id="urgency">
+          <option value="Standard">Standard - 24hrs</option>
+          <option value="Same Day">Same Day - 2-4hrs</option>
+          <option value="Emergency">Emergency - ASAP</option>
+        </select>
+        
+        <label>Your Phone *</label>
+        <input type="tel" id="phone" placeholder="069..." required>
+        
+        <label>Additional Details</label>
+        <textarea id="details" rows="3" placeholder="Load type, weight, special requirements..."></textarea>
+        
+        <button type="submit" class="btn-primary" style="width:100%; margin-top:10px;">Send to WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <div class="contact-grid">
+      <div class="contact-item">
+        <h4>WhatsApp 24/7</h4>
+        <p><a href="https://wa.me/27698949596" style="color:#b8ff00; text-decoration:none;">069 894 9596</a></p>
+      </div>
+      <div class="contact-item">
+        <h4>Email</h4>
+        <p><a href="mailto:info@dtlogistics.co.za" style="color:#b8ff00; text-decoration:none;">info@dtlogistics.co.za</a></p>
+      </div>
+      <div class="contact-item">
+        <h4>Hub</h4>
+        <p>Pretoria / Johannesburg<br>Gauteng, South Africa</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p><strong>D&T Logistics - Your 1-Call Supply Chain</strong></p>
+    <p>© 2026 D&T Logistics Pty Ltd. All rights reserved. | WhatsApp: 069 894 9596</p>
+  </div>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/27698949596?text=Hi%20D%26T%20Logistics%2C%20I%20need%20help%20with%20logistics" class="whatsapp-float" target="_blank">💬</a>
+
+<script>
+document.getElementById('quoteForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  
+  const company = document.getElementById('company').value;
+  const vertical = document.getElementById('vertical').value;
+  const pickup = document.getElementById('pickup').value;
+  const delivery = document.getElementById('delivery').value;
+  const urgency = document.getElementById('urgency').value;
+  const phone = document.getElementById('phone').value;
+  const details = document.getElementById('details').value;
+  
+  const message = `*NEW QUOTE REQUEST - D&T LOGISTICS*%0A%0A`+
+    `*Company:* ${company}%0A`+
+    `*Service:* ${vertical}%0A`+
+    `*Pickup:* ${pickup}%0A`+
+    `*Delivery:* ${delivery}%0A`+
+    `*Urgency:* ${urgency}%0A`+
+    `*Client Phone:* ${phone}%0A`+
+    `*Details:* ${details || 'None'}`;
+  
+  window.open(`https://wa.me/27698949596?text=${message}`, '_blank');
+  
+  alert('Opening WhatsApp with your quote request. We will reply in 15 minutes!');
+  document.getElementById('quoteForm').reset();
+});
+</script>
+
+</body>
+</html>
